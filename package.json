@@ -1,0 +1,20 @@
+{
+  "name": "bunyan-telegram-stream",
+  "version": "1.0.0",
+  "description": "Bunyan stream for sending log messages via Telegram's bot",
+  "main": "index.js",
+  "repository": "https://github.com/b-fett/bunyan-telegram-stream",
+  "author": "Miroshkin Dmitrij",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src/index.js -o ./dist/index.js --presets es2015"
+  },
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "telegram-bot-api": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
